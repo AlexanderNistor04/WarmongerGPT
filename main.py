@@ -4,7 +4,7 @@ from langchain_openai import OpenAI
 
 # this creates an environment variable of your api key
 os.environ['OPENAI_API_KEY'] = openapi_key
-# the temperature variable controls the "creativity" of the ai generation. It ranges from 0 to 1,
+# the temperature variable controls the "creativity" of the AI generation. It ranges from 0 to 1,
 # with 1 being the most "creative"
 llm = OpenAI(temperature=1)
 question = input("ask WarMongerGPT a question\n")
